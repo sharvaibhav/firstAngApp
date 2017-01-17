@@ -1,0 +1,35 @@
+<form #f="ngForm" (ngSubmit)="formSubmit(f.value)" class="top-buffer">
+  <div class="col-md-12 top-buffer">
+      <label class="col-md-4" > The Name</label>
+      <div class="col-md-6">    
+          <input class="form-control" type="text" ngModel name="name">
+        </div> 
+  </div>
+
+  <div class="col-md-12 top-buffer">
+      <label class="col-md-4"> The image</label>
+      <div class="col-md-6"> 
+        <input class=" form-control" type="text" ngModel name="image">
+      </div>
+  </div>
+
+  <div class="col-md-12 top-buffer">
+      <label class="col-md-4"> The website</label>
+      <div class="col-md-6"> 
+      <input class="form-control" type="text" ngModel name="website">
+      </div>
+  </div>
+
+  <div class="col-md-12 top-buffer">
+      <label class="col-md-4"> The email</label>
+      <div class="col-md-6"> 
+      <input class="form-control" type="text" ngModel name="email">
+      </div>
+  </div>
+
+  <div class="action-area col-md-12 top-buffer"> 
+      <button class="col-md-4 btn btn-primary" type="submit">Save</button>
+      <button class="col-md-4 btn btn-danger" (click)="formCancel()">cancel</button>
+  </div>
+  
+</form>

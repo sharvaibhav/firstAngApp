@@ -1,0 +1,30 @@
+@import "_bootstrap-custom.scss";
+
+body{
+    color:black;
+}
+
+div{
+    font-size: 14px;
+}
+
+.image-css{
+    border:1px solid grey;
+    padding:0px;
+}
+
+.profile-section{
+    border:1px solid black;
+    background-color: orangered;
+}
+.profile-section img{
+    border:3px solid black;
+    margin-left:-15px;
+    height:80px;
+}
+
+.top-buffer { margin-top:10px; }
+
+.my-first-app{
+    background-color: #57DE45;
+}
