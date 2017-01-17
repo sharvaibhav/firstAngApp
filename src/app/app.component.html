@@ -1,5 +1,5 @@
 <div class="container my-first-app ">  
-  <div class="col-md-6">  
+  <div class="col-md-6 top-buffer-20">  
     <button *ngIf="!addNewPerson"  class="btn btn-info" (click) = "addNewPerson = !addNewPerson">Add new Person</button>
     <prune *ngIf = "addNewPerson"(onSubmitted)="formSubmit($event)" (onCancel) = "addNewPerson = false;">   </prune>
   </div>
